@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import banner from "../../assets/images/promotionalBanner.svg"
 
 export const PromotionalBannerStyled = styled.section`
     width: 100%;
@@ -7,7 +8,7 @@ export const PromotionalBannerStyled = styled.section`
 
     position: relative;
 
-    background-image: url("./src/assets/images/promotionalBanner.svg");
+    background-image: url(${banner});
     background-size: cover;
     background-position: center;
     

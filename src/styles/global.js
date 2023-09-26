@@ -190,7 +190,7 @@ export const GlobalStyle = createGlobalStyle`
         .button-left {
             position: absolute;
             top: 80px;
-            left: 6%;
+            left: 100px;
 
             width: 32px;
             height: 32px;
@@ -203,7 +203,7 @@ export const GlobalStyle = createGlobalStyle`
         .button-right {
             position: absolute;
             top: 80px;
-            right: 6%;
+            right: 100px;
 
             width: 32px;
             height: 32px;

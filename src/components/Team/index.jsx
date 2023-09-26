@@ -18,6 +18,7 @@ export const Team = () => {
                     )}
                 </ul>
             </div>
+            <ButtonDefault buttonSize="medium">VER TODOS</ButtonDefault>
             <div className="carousel-container--product">
                     <button className="button-left-01">
                         <img src={arrowLeft}/>
@@ -26,7 +27,6 @@ export const Team = () => {
                         <img src={arrowRight}/>
                     </button>
             </div>
-            <ButtonDefault buttonSize="medium">VER TODOS</ButtonDefault>
         </TeamStyled>
     )
 }

@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import banner from "../../assets/images/teamBanner.svg"
 
 export const TeamStyled = styled.section`
     margin-top: 60px;
@@ -6,8 +7,7 @@ export const TeamStyled = styled.section`
     
     position: relative;
 
-
-    background-image: url("./src/assets/images/teamBanner.svg");
+    background-image: url(${banner});
     background-color: rgba(11, 11, 11, 1);
 
     > img {
@@ -45,9 +45,8 @@ export const TeamStyled = styled.section`
         width: 32px;
         height: 32px;
         
-
         top: 230px;
-        right: 200px;
+        right: 230px;
 
         background-color: var(--grey-4);
         border-radius: 4px;
@@ -60,7 +59,7 @@ export const TeamStyled = styled.section`
         height: 32px;
 
         top: 230px;
-        left: 200px;
+        left: 230px;
 
         background-color: var(--grey-4);
         border-radius: 4px;
